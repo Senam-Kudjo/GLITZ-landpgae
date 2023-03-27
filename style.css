@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: "League Spartan", "Poppins", "Outfit", sans-serif;
+}
+
+.view {
+    width: 50%;
+    height: 94vh;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 15px 100px
+}
+
+.tabNavigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabNavigator ul {
+    display: flex;
+    margin: 20px;
+}
+
+.tabNavigator li {
+    padding-left: 20px;
+    list-style: none;
+    margin-right: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active a {
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    padding: 7px;
+    color: #D4A659;
+    font-weight: 600;
+}
+
+.bodyBag {
+    height: 94vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.bodyBag h1 {
+    font-size: 100px;
+    font-family: 'Libre Barcode 128 Text';
+    font-weight: 100;
+    margin: 200px;
+    width: 100%;
+    position: relative;
+    margin-left: 160px;
+    margin-bottom: -180px;
+}
+
+.spanny {
+    margin-top: 300px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-left: 160px;
+}
+
+
+.spanny span {
+    font-size: 18px;
+    color: rgb(89, 89, 89);
+}
+
+
+.viewTwo {
+    width: 50%;
+    height: 94vh;
+    background-image: url("./jessica-felicio-QS9ZX5UnS14-unsplash.jpg");
+    background-size: contain;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
