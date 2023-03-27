@@ -24,40 +24,6 @@ h1 {
     margin: 15px 100px
 }
 
-.tabNavigator {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.tabNavigator ul {
-    display: flex;
-    margin: 20px;
-}
-
-.tabNavigator li {
-    padding-left: 20px;
-    list-style: none;
-    margin-right: 35px;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-a {
-    text-decoration: none;
-}
-
-.active a {
-    text-decoration: none;
-    background-color: white;
-    text-align: center;
-    border-radius: 5px;
-    height: 25px;
-    padding: 7px;
-    color: #D4A659;
-    font-weight: 600;
-}
 
 .bodyBag {
     height: 94vh;
@@ -92,14 +58,74 @@ a {
     color: rgb(89, 89, 89);
 }
 
+.swiper {
+    height: 20px;
+    width: 200px;
+    margin-left: 260px;
+    margin-top: 50px;
+}
+
+.swiper ul {
+    display: flex;
+}
+
+.swiper li {
+    margin-left: 30px;
+    height: 10px;
+    width: 10px;
+    color: aqua;
+    background-color: #D4A659;
+    border-radius: 90px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.activee {
+    background-color: aqua;
+}
 
 .viewTwo {
-    width: 50%;
+    width: 720px;
     height: 94vh;
     background-image: url("./jessica-felicio-QS9ZX5UnS14-unsplash.jpg");
-    background-size: contain;
+    background-size: 90vh 760px;
     height: 100%;
     width: 50%;
     align-items: center;
     justify-content: center;
+}
+
+.tabNavigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabNavigator ul {
+    display: flex;
+    margin: 20px;
+}
+
+.tabNavigator li {
+    padding-left: 20px;
+    list-style: none;
+    margin-right: 35px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active a {
+    text-decoration: none;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 25px;
+    padding: 7px;
+    color: #D4A659;
+    font-weight: 600;
 }
